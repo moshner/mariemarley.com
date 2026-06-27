@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360">
+  <rect width="300" height="360" fill="#d4c8b8" rx="4"/>
+  <!-- Background suggestion of bookshelf -->
+  <rect x="0" y="200" width="300" height="160" fill="#c2b49e"/>
+  <rect x="10" y="205" width="18" height="90" fill="#7a5c3a" rx="1"/>
+  <rect x="30" y="215" width="14" height="80" fill="#3a6b8a" rx="1"/>
+  <rect x="46" y="208" width="16" height="87" fill="#8a3a3a" rx="1"/>
+  <rect x="240" y="210" width="15" height="85" fill="#3a5a8a" rx="1"/>
+  <rect x="257" y="205" width="20" height="90" fill="#6b4a2a" rx="1"/>
+  <rect x="279" y="212" width="14" height="83" fill="#4a7a4a" rx="1"/>
+  <!-- Person silhouette: shoulders/torso -->
+  <ellipse cx="150" cy="350" rx="110" ry="60" fill="#2a3f55"/>
+  <!-- Neck -->
+  <rect x="135" y="260" width="30" height="40" fill="#c8a882" rx="4"/>
+  <!-- Head -->
+  <ellipse cx="150" cy="230" rx="68" ry="78" fill="#c8a882"/>
+  <!-- Hair -->
+  <ellipse cx="150" cy="170" rx="68" ry="42" fill="#5c3a1e"/>
+  <ellipse cx="82" cy="210" rx="18" ry="50" fill="#5c3a1e"/>
+  <ellipse cx="218" cy="210" rx="18" ry="50" fill="#5c3a1e"/>
+  <!-- Subtle smile, eyes -->
+  <ellipse cx="128" cy="238" rx="9" ry="10" fill="white"/>
+  <ellipse cx="172" cy="238" rx="9" ry="10" fill="white"/>
+  <circle cx="130" cy="240" r="6" fill="#3a2a1e"/>
+  <circle cx="174" cy="240" r="6" fill="#3a2a1e"/>
+  <circle cx="132" cy="238" r="2" fill="white"/>
+  <circle cx="176" cy="238" r="2" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="150" cy="258" rx="6" ry="4" fill="#b89870"/>
+  <!-- Smile -->
+  <path d="M136 272 Q150 284 164 272" fill="none" stroke="#9a7060" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Glasses (intellectual touch) -->
+  <rect x="116" y="232" width="24" height="16" rx="8" fill="none" stroke="#3a2a1e" stroke-width="2.5"/>
+  <rect x="160" y="232" width="24" height="16" rx="8" fill="none" stroke="#3a2a1e" stroke-width="2.5"/>
+  <line x1="140" y1="240" x2="160" y2="240" stroke="#3a2a1e" stroke-width="2.5"/>
+  <line x1="100" y1="236" x2="116" y2="237" stroke="#3a2a1e" stroke-width="2.5"/>
+  <line x1="184" y1="237" x2="200" y2="236" stroke="#3a2a1e" stroke-width="2.5"/>
+  <!-- Jacket/collar -->
+  <path d="M60 350 L100 300 L130 310 L150 295 L170 310 L200 300 L240 350" fill="#2a3f55"/>
+  <path d="M130 310 L150 340 L170 310" fill="#f5f0e8"/>
+</svg>
