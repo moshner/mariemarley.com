@@ -166,7 +166,6 @@ h1, h2, h3, h4 {
   font-size: 0.45em;
   font-weight: 400;
   letter-spacing: 0.18em;
-  color: var(--aqua);
   text-transform: uppercase;
   margin-top: 0.3em;
 }
@@ -314,6 +313,12 @@ h1, h2, h3, h4 {
   text-decoration: none;
   letter-spacing: 0.05em;
 }
+
+a.nav-logo:hover {
+  color:white;
+  text-decoration: underline;
+}
+
 .nav-logo span { color: var(--aqua); }
 
 .nav-links {
@@ -476,17 +481,18 @@ h1, h2, h3, h4 {
 }
 
 .upcoming-inner {
-  max-width: 680px;
+  max-width: 660px;
   margin: 0 auto;
 }
 
 .upcoming-section .section-heading { color: var(--aqua); }
-.upcoming-section .section-subhead { color: rgba(255,255,255,0.55); }
+.upcoming-section p.section-subhead { color: rgba(255,255,255,0.55); text-align: center;}
 
 .upcoming-section p {
   color: rgba(255,255,255,0.8);
   font-size: 1.05rem;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 /* ---------- Footer ---------- */

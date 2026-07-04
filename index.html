@@ -1,370 +1,530 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- === SEO Meta === -->
-  <title>Marie Marley, PhD — Author | Caregiver Expert &amp; Alzheimer's Advocate</title>
-  <meta name="description" content="Marie Marley, PhD is an award-winning author and Alzheimer's caregiver advocate. Explore her books on caregiving, love, and resilience.">
-  <meta name="keywords" content="Marie Marley PhD, author, caregiver books, Alzheimer's caregiver, caregiving books, Come Back Early Today, Finding Joy in Alzheimers">
-  <meta name="author" content="Marie Marley, PhD">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.mariemarley.com/">
+    <!-- === SEO Meta === -->
+    <title>
+      Marie Marley, PhD — Author | Caregiver Expert &amp; Alzheimer's Advocate
+    </title>
+    <meta
+      name="description"
+      content="Marie Marley, PhD is an award-winning author and Alzheimer's caregiver advocate. Explore her books on caregiving, love, and resilience."
+    />
+    <meta
+      name="keywords"
+      content="Marie Marley PhD, author, caregiver books, Alzheimer's caregiver, caregiving books, Come Back Early Today, Finding Joy in Alzheimers"
+    />
+    <meta name="author" content="Marie Marley, PhD" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.mariemarley.com/" />
 
-  <!-- === Open Graph === -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Marie Marley, PhD — Author &amp; Caregiver Advocate">
-  <meta property="og:description" content="Award-winning author and Alzheimer's caregiver advocate. Discover books that guide, comfort, and inspire.">
-  <meta property="og:url" content="https://www.mariemarley.com/">
-  <meta property="og:site_name" content="Marie Marley, PhD">
-  <meta property="og:image" content="https://www.mariemarley.com/Marie.jpg">
+    <!-- === Open Graph === -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Marie Marley, PhD — Author &amp; Caregiver Advocate"
+    />
+    <meta
+      property="og:description"
+      content="Award-winning author and Alzheimer's caregiver advocate. Discover books that guide, comfort, and inspire."
+    />
+    <meta property="og:url" content="https://www.mariemarley.com/" />
+    <meta property="og:site_name" content="Marie Marley, PhD" />
+    <meta property="og:image" content="https://www.mariemarley.com/Marie.jpg" />
 
-  <!-- === Twitter Card === -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Marie Marley, PhD — Author">
-  <meta name="twitter:description" content="Award-winning author and Alzheimer's caregiver advocate. Books that guide, comfort, and inspire.">
-  <meta name="twitter:image" content="https://www.mariemarley.com/Marie.jpg">
+    <!-- === Twitter Card === -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Marie Marley, PhD — Author" />
+    <meta
+      name="twitter:description"
+      content="Award-winning author and Alzheimer's caregiver advocate. Books that guide, comfort, and inspire."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.mariemarley.com/Marie.jpg"
+    />
 
-  <!-- === Fonts === -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- === Fonts === -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- === Schema.org JSON-LD === -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
+    <!-- === Schema.org JSON-LD === -->
+    <script type="application/ld+json">
       {
-        "@type": "Person",
-        "@id": "https://www.mariemarley.com/#author",
-        "name": "Marie Marley",
-        "honorificSuffix": "PhD",
-        "jobTitle": "Author, Caregiver Advocate",
-        "url": "https://www.mariemarley.com/",
-        "image": "https://www.mariemarley.com/Marie.jpg",
-        "description": "Award-winning author and nationally recognized Alzheimer's caregiver advocate.",
-        "sameAs": [
-          "https://www.amazon.com/author/mariemarley"
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://www.mariemarley.com/#author",
+            "name": "Marie Marley",
+            "honorificSuffix": "PhD",
+            "jobTitle": "Author, Caregiver Advocate",
+            "url": "https://www.mariemarley.com/",
+            "image": "https://www.mariemarley.com/Marie.jpg",
+            "description": "Award-winning author and nationally recognized Alzheimer's caregiver advocate.",
+            "sameAs": ["https://www.amazon.com/author/mariemarley"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.mariemarley.com/#website",
+            "url": "https://www.mariemarley.com/",
+            "name": "Marie Marley, PhD",
+            "description": "Official author website of Marie Marley, PhD.",
+            "author": { "@id": "https://www.mariemarley.com/#author" }
+          },
+          {
+            "@type": "Book",
+            "name": "Come Back Early Today",
+            "author": { "@id": "https://www.mariemarley.com/#author" },
+            "url": "https://www.mariemarley.com/books/come-back-early-today.html",
+            "description": "A memoir of love and Alzheimer's caregiving that has helped thousands of families navigate the journey.",
+            "genre": "Memoir, Caregiving"
+          },
+          {
+            "@type": "Book",
+            "name": "Finding Joy in Alzheimers",
+            "author": { "@id": "https://www.mariemarley.com/#author" },
+            "url": "https://www.mariemarley.com/books/finding-joy-in-alzheimers.html",
+            "description": "An intimate portrait of a love story lived through the lens of Alzheimer's disease.",
+            "genre": "Memoir, Love Story"
+          },
+          {
+            "@type": "Book",
+            "name": "The Concerto",
+            "author": { "@id": "https://www.mariemarley.com/#author" },
+            "url": "https://www.mariemarley.com/books/the-concerto.html",
+            "description": "A practical and compassionate guide for families walking the path of Alzheimer's caregiving.",
+            "genre": "Self-Help, Caregiving"
+          }
         ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.mariemarley.com/#website",
-        "url": "https://www.mariemarley.com/",
-        "name": "Marie Marley, PhD",
-        "description": "Official author website of Marie Marley, PhD.",
-        "author": { "@id": "https://www.mariemarley.com/#author" }
-      },
-      {
-        "@type": "Book",
-        "name": "Come Back Early Today",
-        "author": { "@id": "https://www.mariemarley.com/#author" },
-        "url": "https://www.mariemarley.com/books/come-back-to-me.html",
-        "description": "A memoir of love and Alzheimer's caregiving that has helped thousands of families navigate the journey.",
-        "genre": "Memoir, Caregiving"
-      },
-      {
-        "@type": "Book",
-        "name": "Finding Joy in Alzheimers",
-        "author": { "@id": "https://www.mariemarley.com/#author" },
-        "url": "https://www.mariemarley.com/books/ed-and-elaine.html",
-        "description": "An intimate portrait of a love story lived through the lens of Alzheimer's disease.",
-        "genre": "Memoir, Love Story"
-      },
-      {
-        "@type": "Book",
-        "name": "The Concerto",
-        "author": { "@id": "https://www.mariemarley.com/#author" },
-        "url": "https://www.mariemarley.com/books/finding-your-way-through.html",
-        "description": "A practical and compassionate guide for families walking the path of Alzheimer's caregiving.",
-        "genre": "Self-Help, Caregiving"
       }
-    ]
-  }
-  </script>
-</head>
+    </script>
+  </head>
 
-<body>
-
-  <!-- ======= SITE HEADER: Cityscape + Author Name ======= -->
-  <header class="site-header" role="banner">
-    <img
-      src="kc-skyline-upscaled.png"
-      alt="Kansas city skyline with aqua sky"
-      class="hero-cityscape"
-      aria-hidden="true"
-    >
-    <div class="hero-overlay" aria-hidden="true"></div>
-    <div class="hero-content">
-      <h1 class="hero-name">
-        Marie Marley
-        <span>PhD</span>
-      </h1>
-    </div>
-
-    <!-- ===== BOOKSHELF ===== -->
-    <div class="shelf-wrapper">
-      <div class="shelf-inner">
-        <nav class="shelf-books" aria-label="Books by Marie Marley">
-
-          <a href="books/come-back-to-me.html" class="shelf-book" aria-label="Come Back Early Today — learn more">
-            <img src="cbet-cover.jpg" alt="Come Back Early Today book cover" width="130" height="195">
-            <span class="shelf-book-label">Come Back<br>Early Today</span>
-          </a>
-
-          <a href="books/ed-and-elaine.html" class="shelf-book" aria-label="Finding Joy in Alzheimers — learn more">
-            <img src="fjia-cover.jpg" alt="Finding Joy in Alzheimers book cover" width="130" height="195">
-            <span class="shelf-book-label">Finding Joy<br>in Alzheimers</span>
-          </a>
-
-          <a href="books/finding-your-way-through.html" class="shelf-book" aria-label="The Concerto — learn more">
-            <img src="book4-cover.svg" alt="The Concerto book cover" width="130" height="195">
-            <span class="shelf-book-label">The Concerto<br> </span>
-          </a>
-
-          <span class="shelf-book coming-soon" aria-label="Fourth book coming soon">
-            <img src="book4-cover.svg" alt="Forthcoming book — cover not yet available" width="130" height="195">
-            <span class="shelf-book-label">Coming<br>Soon</span>
-          </span>
-
-        </nav>
-        <div class="shelf-plank" role="presentation"></div>
-        <div class="shelf-lip" role="presentation"></div>
+  <body>
+    <!-- ======= SITE HEADER: Cityscape + Author Name ======= -->
+    <header class="site-header" role="banner">
+      <img
+        src="kc-skyline-upscaled.png"
+        alt="Kansas city skyline with aqua sky"
+        class="hero-cityscape"
+        aria-hidden="true"
+      />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 class="hero-name">
+          Marie Marley
+        </h1>
       </div>
-    </div>
-  </header>
 
-  <!-- ======= STICKY NAV ======= -->
-  <nav class="site-nav" role="navigation" aria-label="Main navigation">
-    <div class="site-nav-inner">
-      <a href="index.html" class="nav-logo">Marie <span>Marley</span></a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <main id="main-content">
-
-    <!-- ======= ABOUT / BIO ======= -->
-    <section class="about-section" id="about" aria-labelledby="about-heading">
-      <div class="about-inner">
-
-        <div class="about-photo-wrap">
-          <img
-            src="Marie.jpg"
-            alt="Portrait of Marie Marley, PhD, author"
-            class="about-photo"
-            width="300"
-            height="360"
-          >
-          <p class="about-photo-caption">Marie Marley, PhD<br>Author &amp; Caregiver Advocate</p>
-        </div>
-
-        <div class="about-text">
-          <h2 id="about-heading">Marie Marley</h2>
-          <span class="author-credential">PhD &mdash; Author &amp; Alzheimer&rsquo;s Caregiver Advocate</span>
-
-          <p>
-            Marie Marley is an award-winning author whose work sits at the intersection of love, loss, and resilience.
-            Drawing on her own decade-long experience as the primary caregiver for her partner, Eduard,
-            she writes with rare candor about the emotional landscape of Alzheimer's caregiving &mdash;
-            the grief that arrives before death, the humor that survives everything, and the love that refuses to let go.
-          </p>
-          <p>
-            Her books have been praised by caregivers, clinicians, and family members across the country as indispensable guides
-            for navigating one of life&rsquo;s most demanding chapters. She holds a doctorate in human development and has
-            been featured in publications including <em>The Huffington Post</em>, <em>Psychology Today</em>,
-            and <em>The Chicago Tribune</em>.
-          </p>
-          <p>
-            When she&rsquo;s not writing, Marie lectures at universities and caregiver conferences,
-            advocates for policy reform in long-term care, and answers letters from readers who find themselves
-            where she once stood &mdash; uncertain, exhausted, and still full of love.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======= BOOKS ======= -->
-    <section class="books-section" id="books" aria-labelledby="books-heading">
-      <div class="books-section-inner">
-        <h2 class="section-heading" id="books-heading">Books by Marie Marley</h2>
-        <p class="section-subhead">Honest, compassionate, and deeply human &mdash; for every caregiver who has ever felt alone.</p>
-
-        <div class="books-grid">
-
-          <!-- Book 1 -->
-          <article class="book-card" itemscope itemtype="https://schema.org/Book">
-            <div class="book-card-cover">
+      <!-- ===== BOOKSHELF ===== -->
+      <div class="shelf-wrapper">
+        <div class="shelf-inner">
+          <nav class="shelf-books" aria-label="Books by Marie Marley">
+            <a
+              href="books/come-back-early-today.html"
+              class="shelf-book"
+              aria-label="Come Back Early Today — learn more"
+            >
               <img
                 src="cbet-cover.jpg"
                 alt="Come Back Early Today book cover"
-                itemprop="image"
-                width="160"
-                height="240"
-              >
-            </div>
-            <div class="book-card-body">
-              <h3 class="book-card-title" itemprop="name">Come Back Early Today</h3>
-              <p class="book-card-subtitle" itemprop="author" content="Marie Marley, PhD">Marie Marley, PhD</p>
-              <p class="book-card-desc" itemprop="description">
-                A luminous memoir that traces a ten-year caregiving odyssey with equal parts heartbreak and grace.
-                For anyone who has loved someone with Alzheimer&rsquo;s, this book is both mirror and companion.
-              </p>
-              <div class="book-card-links">
-                <a
-                  href="https://www.amazon.com/dp/PLACEHOLDER1"
-                  class="btn btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Buy Come Back Early Today on Amazon"
-                >Buy on Amazon</a>
-                <a
-                  href="books/come-back-to-me.html"
-                  class="btn btn-outline"
-                  aria-label="Learn more about Come Back Early Today"
-                >Learn More</a>
-              </div>
-            </div>
-          </article>
+                width="130"
+                height="195"
+              />
+              <span class="shelf-book-label">Come Back<br />Early Today</span>
+            </a>
 
-          <!-- Book 2 -->
-          <article class="book-card" itemscope itemtype="https://schema.org/Book">
-            <div class="book-card-cover">
+            <a
+              href="books/finding-joy-in-alzheimers.html"
+              class="shelf-book"
+              aria-label="Finding Joy in Alzheimers — learn more"
+            >
               <img
                 src="fjia-cover.jpg"
                 alt="Finding Joy in Alzheimers book cover"
-                itemprop="image"
-                width="160"
-                height="240"
+                width="130"
+                height="195"
+              />
+              <span class="shelf-book-label"
+                >Finding Joy<br />in Alzheimers</span
               >
-            </div>
-            <div class="book-card-body">
-              <h3 class="book-card-title" itemprop="name">Finding Joy in Alzheimers</h3>
-              <p class="book-card-subtitle" itemprop="author" content="Marie Marley, PhD">Marie Marley, PhD</p>
-              <p class="book-card-desc" itemprop="description">
-                A poignant love story that unfolds inside an Alzheimer&rsquo;s care facility,
-                following two residents whose connection defies the disease. Tender, surprising, and profoundly hopeful.
-              </p>
-              <div class="book-card-links">
-                <a
-                  href="https://www.amazon.com/dp/PLACEHOLDER2"
-                  class="btn btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Buy Finding Joy in Alzheimers on Amazon"
-                >Buy on Amazon</a>
-                <a
-                  href="books/ed-and-elaine.html"
-                  class="btn btn-outline"
-                  aria-label="Learn more about Finding Joy in Alzheimers"
-                >Learn More</a>
-              </div>
-            </div>
-          </article>
+            </a>
 
-          <!-- Book 3 -->
-          <article class="book-card" itemscope itemtype="https://schema.org/Book">
-            <div class="book-card-cover">
+            <a
+              href="books/the-concerto.html"
+              class="shelf-book"
+              aria-label="The Concerto — learn more"
+            >
               <img
                 src="book4-cover.svg"
                 alt="The Concerto book cover"
-                itemprop="image"
-                width="160"
-                height="240"
-              >
-            </div>
-            <div class="book-card-body">
-              <h3 class="book-card-title" itemprop="name">The Concerto</h3>
-              <p class="book-card-subtitle" itemprop="author" content="Marie Marley, PhD">Marie Marley, PhD</p>
-              <p class="book-card-desc" itemprop="description">
-                A practical, compassionate guide that addresses the hardest questions caregivers face &mdash;
-                the difficult conversations, the self-care that gets lost, and the grief that has no name.
-              </p>
-              <div class="book-card-links">
-                <a
-                  href="https://www.amazon.com/dp/PLACEHOLDER3"
-                  class="btn btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Buy The Concerto on Amazon"
-                >Buy on Amazon</a>
-                <a
-                  href="books/finding-your-way-through.html"
-                  class="btn btn-outline"
-                  aria-label="Learn more about The Concerto"
-                >Learn More</a>
+                width="130"
+                height="195"
+              />
+              <span class="shelf-book-label">The Concerto<br /> </span>
+            </a>
+
+            <span
+              class="shelf-book coming-soon"
+              aria-label="Fourth book coming soon"
+            >
+              <img
+                src="book4-cover.svg"
+                alt="Forthcoming book — cover not yet available"
+                width="130"
+                height="195"
+              />
+              <span class="shelf-book-label">Coming<br />Soon</span>
+            </span>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= STICKY NAV ======= -->
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+      <div class="site-nav-inner">
+        <a href="index.html" class="nav-logo">Marie <span>Marley</span></a>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="active" aria-current="page">Home</a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <!-- ======= ABOUT / BIO ======= -->
+      <section class="about-section" id="about" aria-labelledby="about-heading">
+        <div class="about-inner">
+          <div class="about-photo-wrap">
+            <img
+              src="Marie.jpg"
+              alt="Portrait of Marie Marley, PhD, author"
+              class="about-photo"
+              width="300"
+              height="360"
+            />
+            <p class="about-photo-caption">
+              Marie Marley, PhD<br />Author &amp; Caregiver Advocate
+            </p>
+          </div>
+
+          <div class="about-text">
+            <h2 id="about-heading">Marie Marley, PhD</h2>
+            <span class="author-credential"
+              >Author &amp; Alzheimer&rsquo;s Caregiver Advocate</span
+            >
+            <p>
+              Marie Marley was an expert grant writer who, over the years,
+              acquired a keen understanding of many geriatric topics, including
+              dementia. However, none of that could have prepared her for the
+              sometimes-difficult demands of loving and caring for a person with
+              Alzheimer's disease.
+            </p>
+            <p>
+              For seven years, she was a caregiver for Edward Theodoru, her life
+              partner of 30 years, who had Alzheimer's. After his death in 2007,
+              Marie began writing books that have dementia as either a primary
+              or a secondary theme. These include an award-winning memoir about
+              her relationship with Ed (Come Back Early Today), a “How To” book
+              for Alzheimer's caregivers (Finding Joy in Alzheimer's, with
+              co-author, Daniel Potts, MD, FAAN, a literary novel (The Concerto)
+              and a forthcoming mystery (Silent Witness to Murder).
+            </p>
+            <p>
+              Marie earned a PhD in Musicology in 1978, then had a successful
+              30-year career as a medical grant writer. She is retired from the
+              University of Cincinnati Department of Family Medicine and the
+              American Academy of Family Physicians. Marie lives in Kansas City
+              with her darling Shih Tzu, Christina.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= BOOKS ======= -->
+      <section class="books-section" id="books" aria-labelledby="books-heading">
+        <div class="books-section-inner">
+          <h2 class="section-heading" id="books-heading">
+            Books by Marie Marley
+          </h2>
+          <p class="section-subhead">
+            Honest, compassionate, and fiercely human: books that turn caregiving darkness into light.
+          </p>
+
+          <div class="books-grid">
+            <!-- Book 1 -->
+            <article
+              class="book-card"
+              itemscope
+              itemtype="https://schema.org/Book"
+            >
+              <div class="book-card-cover">
+                <img
+                  src="cbet-cover.jpg"
+                  alt="Come Back Early Today book cover"
+                  itemprop="image"
+                  width="160"
+                  height="240"
+                />
               </div>
-            </div>
-          </article>
+              <div class="book-card-body">
+                <h3 class="book-card-title" itemprop="name">
+                  Come Back Early Today: A Memoir of Love, Alzheimer's and Joy
+                  (2011)
+                </h3>
+                <p
+                  class="book-card-subtitle"
+                  itemprop="author"
+                  content="Marie Marley, PhD"
+                >
+                  Available in paperback and Kindle version
+                </p>
+                <p class="book-card-desc" itemprop="description">
+                  Alzheimer's caregivers who have read the book say it helped
+                  them very much. Former caregivers say they wish they'd read it
+                  when they were caregivers.<br />
+                  <br />“Come Back Early Today” tells the powerful 30-year love
+                  story of a young American woman and a delightfully colorful,
+                  wickedly eccentric Romanian gentleman and scholar,
+                  interspersed with advice and inspiration for Alzheimer's
+                  caregivers everywhere. In addition to being a compelling love
+                  story, this award-winning memoir shows how one woman solved
+                  several problems that typically arise when caring for a person
+                  with dementia.
+                </p>
+                <div class="book-card-links">
+                  <a
+                    href="https://a.co/d/095ijXGt"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Buy Come Back Early Today on Amazon"
+                    >Buy on Amazon</a
+                  >
+                  <a
+                    href="books/come-back-early-today.html"
+                    class="btn btn-outline"
+                    aria-label="Learn more about Come Back Early Today"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </article>
 
+            <!-- Book 2 -->
+            <article
+              class="book-card"
+              itemscope
+              itemtype="https://schema.org/Book"
+            >
+              <div class="book-card-cover">
+                <img
+                  src="fjia-cover.jpg"
+                  alt="Finding Joy in Alzheimers book cover"
+                  itemprop="image"
+                  width="160"
+                  height="240"
+                />
+              </div>
+              <div class="book-card-body">
+                <h3 class="book-card-title" itemprop="name">
+                  Finding Joy in Alzheimer's: New Hope for Caregivers (2015)
+                </h3>
+                <p
+                  class="book-card-subtitle"
+                  itemprop="author"
+                  content="Marie Marley, PhD"
+                >
+                  Available in paperback and Kindle version
+                </p>
+                <p class="book-card-desc" itemprop="description">
+                  Here's a hope-filled book about Alzheimer's caregiving. This
+                  groundbreaking volume will give you hope in the midst of the
+                  darkness of Alzheimer's and other dementias. You can come to
+                  terms with your loved one's condition and free yourself tao
+                  experience joyous interactions.<br />
+                  <br />“Finding Joy in Alzheimer's” is a “How To” book for
+                  Alzheimer's caregivers, written with neurologist co-author,
+                  Daniel Potts, MD, FAAN. The Foreword was written by Maria
+                  Shriver, whose father, Sargeant Shriver, had Alzheimer's.
+                </p>
+                <div class="book-card-links">
+                  <a
+                    href="https://a.co/d/01HgkYI9"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Buy Finding Joy in Alzheimers on Amazon"
+                    >Buy on Amazon</a
+                  >
+                  <a
+                    href="books/finding-joy-in-alzheimers.html"
+                    class="btn btn-outline"
+                    aria-label="Learn more about Finding Joy in Alzheimers"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <!-- Book 3 -->
+            <article
+              class="book-card"
+              itemscope
+              itemtype="https://schema.org/Book"
+            >
+              <div class="book-card-cover">
+                <img
+                  src="book4-cover.svg"
+                  alt="The Concerto book cover"
+                  itemprop="image"
+                  width="160"
+                  height="240"
+                />
+              </div>
+              <div class="book-card-body">
+                <h3 class="book-card-title" itemprop="name">
+                  The Concerto: A Novel (2026)
+                </h3>
+                <p
+                  class="book-card-subtitle"
+                  itemprop="author"
+                  content="Marie Marley, PhD"
+                >
+                  Available in paperback and Kindle version
+                </p>
+                <p class="book-card-desc" itemprop="description">
+                  “The Concerto” tells the tale Melody Rosen, a world-famous
+                  flute player, who falls in love with and marries a plumber.
+                  Her primary goal in life is to find unconditional love.
+                  <br /><br />
+                  Melody and her plumber husband, Paul Rosen, have a delightful
+                  life together and Melody is convinced she has long last found
+                  that kind of love. <br /><br />
+                  But after she develops Alzheimer's, life goes steadily
+                  downhill.
+                </p>
+                <div class="book-card-links">
+                  <a
+                    href="https://www.amazon.com/dp/PLACEHOLDER3"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Buy The Concerto on Amazon"
+                    >Buy on Amazon</a
+                  >
+                  <a
+                    href="books/the-concerto.html"
+                    class="btn btn-outline"
+                    aria-label="Learn more about The Concerto"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ======= UPCOMING BOOK ======= -->
-    <section class="upcoming-section" id="upcoming" aria-labelledby="upcoming-heading">
-      <div class="upcoming-inner">
-        <h2 class="section-heading" id="upcoming-heading">A Fourth Book Is Coming</h2>
-        <p class="section-subhead">Expected 2026&ndash;2027</p>
-        <p>
-          Marie is currently at work on her fourth book. Details are forthcoming &mdash; sign up
-          for updates to be among the first to hear the title, cover reveal, and publication date.
-        </p>
-        <a href="mailto:updates@mariemarley.com" class="btn btn-ghost">Notify Me When It Launches</a>
-      </div>
-    </section>
-
-    <!-- ======= CONTACT ======= -->
-    <section class="about-section" id="contact" style="background: var(--cream);" aria-labelledby="contact-heading">
-      <div class="about-inner" style="grid-template-columns: 1fr; max-width: 640px;">
-        <div class="about-text">
-          <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
-          <p class="section-subhead">Speaking engagements, media inquiries, or a note from a reader</p>
+      <!-- ======= UPCOMING BOOK ======= -->
+      <section
+        class="upcoming-section"
+        id="upcoming"
+        aria-labelledby="upcoming-heading"
+      >
+        <div class="upcoming-inner">
+          <h2 class="section-heading" id="upcoming-heading">
+            Silent Witness to Murder
+          </h2>
+          <p class="section-subhead">Coming in 2027</p>
           <p>
-            Marie welcomes messages from readers, caregivers, and organizations.
-            For speaking engagements, podcast interviews, or media requests,
-            please reach out by email and her team will respond promptly.
+            The last person social worker, Janice Jameson, expects to see her
+            first day on the job—her first job out of college—is the nursing
+            home's elderly medical director, Marvin Donaldson. He's dead.
           </p>
-          <p style="margin-top: 1.5rem;">
-            <a href="mailto:contact@mariemarley.com" class="btn btn-primary">contact@mariemarley.com</a>
+          <p>
+            “Silent Witness to Murder,” coming in July 2007, is a mystery about
+            a young social worker, Janice Jameson, turned amateur sleuth. To
+            solve the crime, she must develop a bond and learn to communicate
+            nonverbally with Nancy Longarden, a nursing home resident who is the
+            only witness to the murder. Nancy has frontotemporal dementia, which
+            has rendered her unable to speak.
           </p>
+          <a
+                    href="books/silent-witness-to-murder.html"
+                    class="btn btn-primary"
+                    aria-label="Learn more about Silent Witness to Murder"
+                    >Learn More</a
+                  >
+          <a href="mailto:updates@mariemarley.com" class="btn btn-ghost"
+            >Notify Me When It Launches</a
+          >
         </div>
+      </section>
+
+      <!-- ======= CONTACT ======= -->
+      <section
+        class="about-section"
+        id="contact"
+        style="background: var(--cream)"
+        aria-labelledby="contact-heading"
+      >
+        <div
+          class="about-inner"
+          style="grid-template-columns: 1fr; max-width: 640px"
+        >
+          <div class="about-text">
+            <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
+            <p class="section-subhead">
+              Speaking engagements, media inquiries, or a note from a reader
+            </p>
+            <p>
+              Marie welcomes messages from readers, caregivers, and
+              organizations. For speaking engagements, podcast interviews, or
+              media requests, please reach out by email and her team will
+              respond promptly.
+            </p>
+            <p style="margin-top: 1.5rem">
+              <a href="mailto:contact@mariemarley.com" class="btn btn-primary"
+                >contact@mariemarley.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="mailto:contact@mariemarley.com">Contact</a></li>
+        </ul>
+        <p class="footer-copy">
+          &copy; <span id="yr"></span> Marie Marley, PhD. All rights reserved.
+        </p>
       </div>
-    </section>
+    </footer>
 
-  </main>
-
-  <!-- ======= FOOTER ======= -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner">
-      <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="books/come-back-to-me.html">Come Back Early Today</a></li>
-        <li><a href="books/ed-and-elaine.html">Finding Joy in Alzheimers</a></li>
-        <li><a href="books/finding-your-way-through.html">The Concerto</a></li>
-        <li><a href="mailto:contact@mariemarley.com">Contact</a></li>
-      </ul>
-      <p class="footer-copy">
-        &copy; <span id="yr"></span> Marie Marley, PhD. All rights reserved.
-      </p>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('yr').textContent = new Date().getFullYear();
-  </script>
-
-</body>
+    <script>
+      document.getElementById("yr").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
