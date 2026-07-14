@@ -54,7 +54,7 @@ A simple, responsive static site that showcases **Marie Marley, PhD** – he
 │   ├─ Marie.jpg
 │   ├─ cbet-cover.jpg
 │   ├─ fjia-cover.jpg
-│   └─ book4-cover.svg
+│   └─ concerto-cover.png
 │
 └─ books/                # Individual book pages (already linked from index.html)
     ├─ come-back-early-today.html
