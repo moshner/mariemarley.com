@@ -12,7 +12,7 @@ A simple, responsive static site that showcases **Marie Marley, PhD** – he
 | **Book‑shelf carousel** | Displays covers of the four books (three published, one “Coming Soon”). |
 | **Sticky navigation** | Home · About · Books · Contact – stays visible while scrolling. |
 | **About / Bio section** | Portrait, credential line, and a concise narrative of Marie’s caregiving journey and career. |
-| **Books section** | Card layout for each title, with cover image, description, Amazon purchase button, and “Learn More” link. |
+| **Books section** | Card layout for each title, with cover image, description, Amazon purchase button, and “Read more” link. |
 | **Upcoming book teaser** | Synopsis of the mystery novel *Silent Witness to Murder* (expected 2027) and a “Notify Me” email CTA. |
 | **Contact form** | Simple mailto link for speaking‑engagements, media requests, or reader notes. |
 | **Footer** | Quick navigation, copyright auto‑year script, and contact e‑mail. |
@@ -127,7 +127,7 @@ html
            Buy on Amazon
          </a>
          <a href="books/new-title.html"
-            class="btn btn-outline">Learn More</a>
+            class="btn btn-outline">Read more</a>
        </div>
      </div>
    </article>
