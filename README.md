@@ -117,7 +117,7 @@ html
      <div class="book-card-body">
        <h3 class="book-card-title" itemprop="name">New Title (202X)</h3>
        <p class="book-card-subtitle" itemprop="author"
-          content="Marie Marley, PhD">Available in paperback and Kindle</p>
+          content="Marie Marley, PhD">Available in paperback and Kindle format</p>
        <p class="book-card-desc" itemprop="description">
          <!-- short description -->
        </p>

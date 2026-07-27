@@ -24,7 +24,7 @@
   --vt-wood-light: #3d2e1f;
 
   --max-w: 1200px;
-  --section-pad: 4rem 1.5rem;
+  --section-pad: 2rem 1.5rem;
   --radius: 4px;
 }
 
@@ -54,6 +54,7 @@ h1, h2, h3, h4 {
   font-size: clamp(1.6rem, 3.5vw, 2.4rem);
   margin-bottom: 0.5rem;
   letter-spacing: 0.01em;
+  margin-bottom: 2.5rem;
 }
 
 .section-subhead {
@@ -140,6 +141,7 @@ h1, h2, h3, h4 {
     rgba(13,27,42,0.25) 55%,
     rgba(13,27,42,0.72) 100%
   );
+  filter: brightness(15);
 }
 
 .hero-content {
@@ -320,8 +322,6 @@ a.nav-logo:hover {
   text-decoration: underline;
 }
 
-.nav-logo span { color: var(--aqua); }
-
 .nav-links {
   display: flex;
   gap: 1.8rem;
@@ -448,8 +448,12 @@ a.nav-logo:hover {
 
 .book-card-title {
   color: var(--aqua);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.4rem;
+}
+
+a.book-card-title {
+  text-decoration: none;
 }
 
 .book-card-subtitle {
@@ -522,7 +526,7 @@ a.nav-logo:hover {
 .footer-links a {
   color: rgba(255,255,255,0.5);
   text-decoration: none;
-  font-size: 0.82rem;
+  font-size: 1rem;
   transition: color 0.2s;
 }
 .footer-links a:hover { color: var(--aqua); }
