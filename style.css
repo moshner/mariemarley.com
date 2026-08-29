@@ -311,7 +311,7 @@ h1, h2, h3, h4 {
 
 .nav-logo {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
   letter-spacing: 0.05em;
@@ -744,6 +744,12 @@ a.book-card-title {
 
 @media (max-width: 640px) {
   :root { --section-pad: 2.8rem 1.2rem; }
+
+  .nav-logo {
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+  }
 
   .shelf-books { gap: 0.8rem; }
   .shelf-book img { width: clamp(55px, 18vw, 90px); }
