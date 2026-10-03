@@ -54,7 +54,7 @@ A simple, responsive static site that showcases **Marie Marley, PhD** – he
 │   ├─ Marie.jpg
 │   ├─ cbet-cover.jpg
 │   ├─ fjia-cover.jpg
-│   └─ concerto-cover.png
+│   └─ concerto-cover.jpg
 │
 └─ books/                # Individual book pages (already linked from index.html)
     ├─ come-back-early-today.html
@@ -141,10 +141,4 @@ html
 4. Open a Pull Request describing the changes.  
 
 Please keep the HTML structure and class names consistent so the existing CSS continues to work.
-
-📧
-Contact  
-
-• Email: contact@mariemarley.com  
-• Speaking / Media inquiries: same address; the team will respond promptly.
 
